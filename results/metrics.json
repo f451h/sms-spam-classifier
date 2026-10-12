@@ -1,0 +1,47 @@
+{
+  "n_messages_unique": 5169,
+  "cv": [
+    {
+      "model": "Linear SVM",
+      "precision": 0.9863,
+      "recall": 0.9482,
+      "f1": 0.9668,
+      "accuracy": 0.9918
+    },
+    {
+      "model": "Logistic Regression",
+      "precision": 0.9842,
+      "recall": 0.9463,
+      "f1": 0.9648,
+      "accuracy": 0.9913
+    },
+    {
+      "model": "Multinomial NB",
+      "precision": 0.9596,
+      "recall": 0.9482,
+      "f1": 0.9538,
+      "accuracy": 0.9884
+    },
+    {
+      "model": "Complement NB",
+      "precision": 0.9414,
+      "recall": 0.9482,
+      "f1": 0.9447,
+      "accuracy": 0.986
+    }
+  ],
+  "best_model": "Linear SVM",
+  "best_params": {
+    "clf__C": "0.3",
+    "tfidf__word__ngram_range": "(1, 1)"
+  },
+  "threshold": 0.649,
+  "test_precision": 0.984,
+  "test_recall": 0.9389,
+  "test_f1": 0.9609,
+  "test_ap": 0.9888,
+  "ham_blocked": 2,
+  "spam_missed": 8,
+  "n_test": 1034,
+  "n_test_spam": 131
+}
